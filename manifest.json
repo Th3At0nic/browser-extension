@@ -3,7 +3,16 @@
   "name": "My Browser Extension",
   "version": "1.0",
   "action": {
-    "default_popup": "index.html",
-    "default_icon": "icon.png"
+    "default_popup": "/index.html",
+    "default_icon": {
+      "16": "./icons/extension-icon-16_16.png",
+      "48": "./icons/extension-icon-48_48.png",
+      "128": "/icons/extension-icon-128_128.png"
+    }
+  },
+  "icons": {
+    "16": "/icons/extension-icon-16_16.png",
+    "48": "/icons/extension-icon-48_48.png",
+    "128": "/icons/extension-icon-128_128.png"
   }
 }
