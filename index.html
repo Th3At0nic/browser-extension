@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <title>My Browser Extension</title>
+    <style>
+      body {
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #d4dadf;
+        background: #fdf4ef;
+      }
+      #profile-img {
+        width: 45px;
+        height: 45px;
+        border-radius: 45px;
+        background: #d9d9d9;
+        margin-right: 20px;
+      }
+      #engaged-style {
+        color: #fff;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        width: 52px;
+        height: 15px;
+        padding: 4px;
+        gap: 6.818px;
+        border-radius: 35.455px;
+        background: #008000;
+      }
+      #prof-name {
+        color: #000;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 700;
+      }
+      .profile-name-container {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        height: 20px;
+        padding-top: 15px;
+      }
+      .btn-primary {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #000;
+        background: #fff;
+        border-radius: 6px;
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 400;
+        padding: 8.312px;
+        gap: 8.312px;
+      }
+      #btn-open-candidate {
+        border-radius: 3px;
+        padding: 4.857px;
+        gap: 4.857px;
+      }
+      #person-designation {
+        color: #000;
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
+        align-self: stretch;
+      }
+      .profile-header-container {
+        display: flex;
+        align-items: center;
+      }
+      .contact-details-cotnainer {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+      }
+      .contact-details-styles {
+        color: #000;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+      }
+      #status-style {
+        display: flex;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        border-radius: 52px;
+        background: #fff;
+      }
+      .btn-container {
+        display: flex;
+        gap: 15px;
+      }
+      .status-btn-container {
+        display: block;
+        justify-content: space-between;
+        width: 30vw;
+      }
+      .body-container {
+        display: flex;
+        justify-content: space-between;
+      }
+      .profile-container {
+        width: 70vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="body-container">
+      <div class="profile-container">
+        <div class="profile-header-container">
+          <img id="profile-img" src="./icons/prof-img.webp" alt="" />
+          <div>
+            <div class="profile-name-container">
+              <h4 id="prof-name">John Doe</h4>
+              <p id="engaged-style">Engaged</p>
+              <button class="btn-primary" id="btn-open-candidate">
+                Open Candidate
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </button>
+            </div>
+            <p id="person-designation">Front End Developer</p>
+          </div>
+        </div>
+        <div class="contact-details-cotnainer">
+          <div>
+            <p class="contact-details-styles">
+              <i class="fa-regular fa-envelope"></i> john.doe@acme.com
+            </p>
+            <p class="contact-details-styles">
+              <i class="fa-solid fa-phone"></i> +54 9 11 3463 6547
+            </p>
+            <p class="contact-details-styles">
+              <i class="fa-regular fa-envelope"></i> +54 9 11 3463 6547
+            </p>
+            <p class="contact-details-styles">
+              <i class="fa-regular fa-envelope"></i> 3 applications (2 active)
+            </p>
+          </div>
+          <div>
+            <p class="contact-details-styles">
+              <i class="fa-regular fa-envelope"></i> Last Applied on 05/24/2024
+            </p>
+            <p class="contact-details-styles">
+              <i class="fa-regular fa-envelope"></i> Buenos Aires, Argentina
+            </p>
+            <p class="contact-details-styles">
+              <i class="fa-regular fa-envelope"></i> 25 years
+            </p>
+            <p class="contact-details-styles">
+              <i class="fa-regular fa-envelope"></i> 3 applications (2 active)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="status-btn-container">
+        <p id="status-style">SC Pending</p>
+        <div class="btn-container">
+          <button class="btn-primary">
+            Reject <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+          <button class="btn-primary">
+            Approve <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+          <button class="btn-primary">
+            <i class="fa-solid fa-caret-down"></i>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
