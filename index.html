@@ -13,142 +13,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="/styles.css" />
     <title>My Browser Extension</title>
-    <style>
-      body {
-        padding: 20px;
-        border-radius: 8px;
-        border: 1px solid #d4dadf;
-        background: #fdf4ef;
-      }
-      #profile-img {
-        width: 45px;
-        height: 45px;
-        border-radius: 45px;
-        background: #d9d9d9;
-        margin-right: 20px;
-      }
-      #engaged-style {
-        color: #fff;
-        font-family: Inter;
-        font-size: 12px;
-        font-weight: 400;
-        width: 52px;
-        height: 15px;
-        padding: 4px;
-        gap: 6.818px;
-        border-radius: 35.455px;
-        background: #008000;
-      }
-      #prof-name {
-        color: #000;
-        font-family: Inter;
-        font-size: 18px;
-        font-weight: 700;
-      }
-      .profile-name-container {
-        display: flex;
-        align-items: center;
-        gap: 14px;
-        height: 20px;
-        padding-top: 15px;
-      }
-      .btn-primary {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid #000;
-        background: #fff;
-        border-radius: 6px;
-        color: #000;
-        font-family: Inter;
-        font-size: 13px;
-        font-weight: 400;
-        padding: 10px 15px;
-        gap: 8.312px;
-      }
-      #btn-open-candidate {
-        border-radius: 5px;
-        padding: 6px 12px;
-        gap: 4.857px;
-      }
-      #person-designation {
-        color: #000;
-        font-family: Inter;
-        font-size: 15px;
-        font-weight: 400;
-        align-self: stretch;
-      }
-      .profile-header-container {
-        display: flex;
-        align-items: center;
-      }
-      .contact-details-cotnainer {
-        display: flex;
-        align-items: center;
-        gap: 40px;
-      }
-      .contact-details-styles {
-        color: #000;
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 400;
-      }
-      #status-style {
-        display: flex;
-        padding: 5px;
-        margin: 0 auto;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        align-self: stretch;
-        border-radius: 52px;
-        background: #fff;
-        width: 60%;
-        color: #585858;
-        font-family: Inter;
-        font-size: 15px;
-        font-weight: 400;
-      }
-      .btn-container {
-        display: flex;
-        gap: 15px;
-        margin-top: 90px;
-        justify-content: center;
-      }
-      .status-btn-container {
-        display: block;
-        justify-content: space-between;
-        width: 30vw;
-      }
-      .body-container {
-        display: flex;
-        justify-content: space-between;
-      }
-      .profile-container {
-        width: 70vw;
-      }
-      .application-title {
-        color: #000;
-        font-family: Inter;
-        font-size: 16px;
-        font-weight: 700;
-      }
-      .last-update {
-        color: #000;
-        text-align: left;
-        font-family: Inter;
-        font-size: 16px;
-        font-weight: 400;
-        margin: 0 300px 0 auto
-      }
-      .application-div {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-      }
-    </style>
   </head>
   <body>
     <div class="body-container">
@@ -209,7 +75,7 @@
       </div>
     </div>
     <hr />
-    <div>
+    <div class="footer-container">
       <div>
         <div class="application-div">
           <p class="application-title">Application Information</p>
@@ -222,8 +88,17 @@
           <p class="last-update">Last updated 23d ago</p>
         </div>
       </div>
-      <div></div>
-      <div></div>
+      <div class="btn-application-container">
+        <button class="btn-applicaion">Applied</button>
+        <button class="btn-applicaion" id="first-interview-style">
+          First Interview
+        </button>
+        <button class="btn-applicaion">Skills Interview</button>
+        <button class="btn-applicaion">Client Interview</button>
+      </div>
+      <div class="footer-report-container">
+        <a href="" class="footer-report-anchor">Report an issue</a>
+      </div>
     </div>
   </body>
 </html>

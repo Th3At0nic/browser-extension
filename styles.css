@@ -1,0 +1,205 @@
+/* shared styels */
+body {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #d4dadf;
+    background: #fdf4ef;
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    background: #fff;
+    border-radius: 6px;
+    color: #000;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 15px;
+    gap: 8.312px;
+}
+
+
+/* Profile container styles */
+
+#profile-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    background: #d9d9d9;
+    margin-right: 20px;
+}
+
+#engaged-style {
+    color: #fff;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    width: 52px;
+    height: 15px;
+    padding: 4px;
+    gap: 6.818px;
+    border-radius: 35.455px;
+    background: #008000;
+}
+
+#prof-name {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.profile-name-container {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    height: 20px;
+    padding-top: 15px;
+}
+
+#btn-open-candidate {
+    border-radius: 5px;
+    padding: 6px 12px;
+    gap: 4.857px;
+}
+
+#person-designation {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    align-self: stretch;
+}
+
+.profile-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-details-cotnainer {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact-details-styles {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#status-style {
+    display: flex;
+    padding: 5px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 52px;
+    background: #fff;
+    width: 50%;
+    color: #585858;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.btn-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 90px;
+    justify-content: center;
+}
+
+.status-btn-container {
+    display: block;
+    width: 40vw;
+}
+
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30px 80px;
+}
+
+.profile-container {
+    width: 60vw;
+}
+
+
+
+/* Footer Container Styles starts here */
+.footer-container {
+    margin: 80px 30px 30px;
+}
+
+.application-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.last-update {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 300px 0 auto
+}
+
+.application-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* footer sections button styles */
+.btn-applicaion {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 52px;
+    border: 1px solid #000;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #fdf4ef;
+}
+
+.btn-application-container {
+    display: flex;
+    gap: 45px;
+    margin: 30px 0 40px;
+}
+
+#first-interview-style {
+    background: #008000;
+    color: white;
+}
+
+.footer-report-anchor {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+
+.footer-report-container {
+    display: flex;
+    justify-content: end;
+}
