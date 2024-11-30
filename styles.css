@@ -1,10 +1,11 @@
 /* shared styels */
 body {
-    padding: 40px;
+    padding: 20px;
     margin: 20px;
     border-radius: 8px;
     border: 1px solid #d4dadf;
     background: #fdf4ef;
+    height: 100%;
 }
 
 .btn-primary {
@@ -16,12 +17,28 @@ body {
     border-radius: 6px;
     color: #000;
     font-family: Inter;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
-    padding: 10px 15px;
-    gap: 8.312px;
+    padding: 7px 15px;
+    gap: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
+
+button:hover {
+    background-color: #C0C0C0;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgb(192, 192, 192);
+    border-color: #C0C0C0;
+    /* color: white; */
+}
+
+/* Optional: Focus styling */
+button:focus {
+    outline: none;
+    border-color: #2980b9;
+}
 
 /* Profile container styles */
 
@@ -30,7 +47,7 @@ body {
     height: 45px;
     border-radius: 45px;
     background: #d9d9d9;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 #engaged-style {
@@ -38,9 +55,8 @@ body {
     font-family: Inter;
     font-size: 12px;
     font-weight: 400;
-    width: 52px;
-    height: 15px;
-    padding: 4px;
+    width: 50px;
+    padding: 5px;
     gap: 6.818px;
     border-radius: 35.455px;
     background: #008000;
@@ -49,21 +65,21 @@ body {
 #prof-name {
     color: #000;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .profile-name-container {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 15px;
     height: 20px;
     padding-top: 15px;
 }
 
 #btn-open-candidate {
     border-radius: 5px;
-    padding: 6px 12px;
+    padding: 6px 8px;
     gap: 4.857px;
 }
 
@@ -80,16 +96,16 @@ body {
     align-items: center;
 }
 
-.contact-details-cotnainer {
+.contact-details-container {
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 20px;
 }
 
 .contact-details-styles {
     color: #000;
     font-family: Inter;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
 }
 
@@ -97,9 +113,10 @@ body {
     display: flex;
     padding: 5px;
     margin: 0 auto;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     align-self: stretch;
     border-radius: 52px;
     background: #fff;
@@ -111,7 +128,7 @@ body {
 
 .btn-container {
     display: flex;
-    gap: 15px;
+    gap: 7px;
     margin-top: 90px;
     justify-content: center;
 }
@@ -119,12 +136,12 @@ body {
 .body-right-div {
     display: flex;
     width: 40vw;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 
 .status-btn-container {
     display: block;
-    width: 52%;
+    width: 90%;
 }
 
 .body-container {
@@ -138,10 +155,10 @@ body {
 
 /* horizontal line */
 .horizontal-line-style {
-    width: 90%;
+    width: 80%;
     height: 1px;
     background: #D4DADF;
-    margin: 80px 0;
+    margin: 30px 0;
 
 }
 
@@ -152,7 +169,7 @@ body {
 .application-title {
     color: #000;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
 }
 
@@ -160,24 +177,24 @@ body {
     color: #000;
     text-align: left;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
-    margin: 0 350px 0 auto
+    margin: 0 100px 0 auto
 }
 
 .application-div {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 /* footer sections button styles */
 .btn-applicaion {
     display: flex;
-    padding: 10px 20px;
+    padding: 8px 15px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     border-radius: 52px;
     border: 1px solid #000;
     color: #000;
@@ -185,12 +202,14 @@ body {
     font-size: 15px;
     font-weight: 400;
     background-color: #fdf4ef;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .btn-application-container {
     display: flex;
-    gap: 45px;
-    margin: 30px 0 40px;
+    gap: 20px;
+    margin: 30px 0 30px;
 }
 
 #first-interview-style {
@@ -206,7 +225,7 @@ body {
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 8px 15px;
 
 }
 
