@@ -65,12 +65,12 @@
         font-family: Inter;
         font-size: 13px;
         font-weight: 400;
-        padding: 8.312px;
+        padding: 10px 15px;
         gap: 8.312px;
       }
       #btn-open-candidate {
-        border-radius: 3px;
-        padding: 4.857px;
+        border-radius: 5px;
+        padding: 6px 12px;
         gap: 4.857px;
       }
       #person-designation {
@@ -98,16 +98,24 @@
       #status-style {
         display: flex;
         padding: 5px;
+        margin: 0 auto;
         justify-content: center;
         align-items: center;
         gap: 10px;
         align-self: stretch;
         border-radius: 52px;
         background: #fff;
+        width: 60%;
+        color: #585858;
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
       }
       .btn-container {
         display: flex;
         gap: 15px;
+        margin-top: 90px;
+        justify-content: center;
       }
       .status-btn-container {
         display: block;
@@ -120,6 +128,25 @@
       }
       .profile-container {
         width: 70vw;
+      }
+      .application-title {
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .last-update {
+        color: #000;
+        text-align: left;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0 300px 0 auto
+      }
+      .application-div {
+        display: flex;
+        align-items: center;
+        gap: 20px;
       }
     </style>
   </head>
@@ -149,25 +176,19 @@
               <i class="fa-solid fa-phone"></i> +54 9 11 3463 6547
             </p>
             <p class="contact-details-styles">
-              <i class="fa-regular fa-envelope"></i> +54 9 11 3463 6547
+              <i class="fa-brands fa-whatsapp"></i> +54 9 11 3463 6547
             </p>
             <p class="contact-details-styles">
-              <i class="fa-regular fa-envelope"></i> 3 applications (2 active)
+              <i class="fa-solid fa-briefcase"></i> 3 applications (2 active)
             </p>
           </div>
           <div>
+            <p class="contact-details-styles">Last Applied on 05/24/2024</p>
             <p class="contact-details-styles">
-              <i class="fa-regular fa-envelope"></i> Last Applied on 05/24/2024
+              <i class="fa-solid fa-location-dot"></i> Buenos Aires, Argentina
             </p>
-            <p class="contact-details-styles">
-              <i class="fa-regular fa-envelope"></i> Buenos Aires, Argentina
-            </p>
-            <p class="contact-details-styles">
-              <i class="fa-regular fa-envelope"></i> 25 years
-            </p>
-            <p class="contact-details-styles">
-              <i class="fa-regular fa-envelope"></i> 3 applications (2 active)
-            </p>
+            <p class="contact-details-styles">25 years</p>
+            <p class="contact-details-styles">3 applications (2 active)</p>
           </div>
         </div>
       </div>
@@ -186,6 +207,23 @@
           </button>
         </div>
       </div>
+    </div>
+    <hr />
+    <div>
+      <div>
+        <div class="application-div">
+          <p class="application-title">Application Information</p>
+          <div>
+            <button class="btn-primary" id="btn-open-candidate">
+              Open Application
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+          </div>
+          <p class="last-update">Last updated 23d ago</p>
+        </div>
+      </div>
+      <div></div>
+      <div></div>
     </div>
   </body>
 </html>
